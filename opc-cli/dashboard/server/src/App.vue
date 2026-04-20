@@ -4,6 +4,9 @@
       <h1 class="logo">OPC</h1>
       <div class="nav-links">
         <router-link to="/dashboard">首页</router-link>
+        <router-link to="/kg">图谱</router-link>
+        <router-link to="/evaluate">Evaluate</router-link>
+        <router-link to="/gallery">Gallery</router-link>
       </div>
     </nav>
     <main class="main" :class="{ 'full-height': isEditor, 'no-padding': isFullPage }">

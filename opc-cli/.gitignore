@@ -8,9 +8,22 @@ __pycache__/
 opc_cli.egg-info/
 dist/
 build/
+CLAUDE.md
 
 # Node
 node_modules/
 
 # Test files (do not release)
 test_*.py
+
+# Data directories — loaded from ~/.opc_cli/opc/ at runtime
+scripts/image/workflows/
+scripts/image/templates/
+scripts/image/examples/
+scripts/image/eval/prompts/
+scripts/image/eval/results/
+scripts/image/kg/data/
+scripts/image/kg/extensions.json
+
+# Gallery database (user-specific, generated at runtime)
+gallery.json

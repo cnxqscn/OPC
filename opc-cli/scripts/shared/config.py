@@ -44,6 +44,15 @@ DEFAULT_CONFIG = {
     # cut defaults
     "cut_video": "",
     "cut_json": "",
+    # comfyui / image defaults
+    "comfyui_host": "127.0.0.1",
+    "comfyui_port": 8188,
+    "image_output_dir": "",  # empty = reuse output_dir
+    # vision model for image analysis (OpenAI-compatible API)
+    # NOTE: do NOT use Claude/Anthropic models — use local or other providers (e.g. Qwen-VL)
+    "vision_api_url": "",
+    "vision_api_key": "",  # leave empty for local models
+    "vision_model": "",
 }
 
 
